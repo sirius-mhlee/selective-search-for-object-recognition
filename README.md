@@ -1,1 +1,1 @@
-# selective-search
+# Selective Search for Object Recognition
