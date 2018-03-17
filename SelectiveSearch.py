@@ -48,7 +48,7 @@ def main():
             if sim[1] == a or sim[1] == b or sim[2] == a or sim[2] == b:
                 simset.remove(sim)
 
-                if sim[1] == a and sim[2] == b:
+                if (sim[1] == a and sim[2] == b) or (sim[1] == b and sim[2] == a):
                     continue
 
                 new_a = rgset.index(rgset[-1])
